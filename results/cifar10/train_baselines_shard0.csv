@@ -1,0 +1,8 @@
+job_id,experiment,dataset,model,method,score_set,data_fraction,balanced,offset,kd,epochs,seed,n_kept,test_acc,train_seconds,sec_per_epoch,final_train_acc,hardware,host,torch,slurm_job,finished
+train|cifar10|resnet18|full|-|1.0|60|0|bal0|off0.0|kd0,baselines,cifar10,resnet18,full,-,1.0,0,0.0,0,60,0,50000,0.9474,175.16,2.919,0.9992,NVIDIA L40S,cn42-l40.prajna.iitb.ac.in,2.11.0+cu128,353515,2026-10-17 02:52:54
+train|cifar10|resnet18|random|-|0.7|60|0|bal0|off0.0|kd0,baselines,cifar10,resnet18,random,-,0.7,0,0.0,0,60,0,35000,0.9306,93.64,1.561,0.9992,NVIDIA L40S,cn42-l40.prajna.iitb.ac.in,2.11.0+cu128,353515,2026-10-17 02:54:28
+train|cifar10|resnet18|random|-|0.3|60|0|bal0|off0.0|kd0,baselines,cifar10,resnet18,random,-,0.3,0,0.0,0,60,0,15000,0.8708,43.18,0.72,0.9992,NVIDIA L40S,cn42-l40.prajna.iitb.ac.in,2.11.0+cu128,353515,2026-10-17 02:55:11
+train|cifar10|resnet18|random|-|0.9|60|1|bal0|off0.0|kd0,baselines,cifar10,resnet18,random,-,0.9,0,0.0,0,60,1,45000,0.9371,118.17,1.969,0.9992,NVIDIA L40S,cn42-l40.prajna.iitb.ac.in,2.11.0+cu128,353515,2026-10-17 02:57:09
+train|cifar10|resnet18|short|-|1.0|42|1|bal0|off0.0|kd0,baselines,cifar10,resnet18,short,-,1.0,0,0.0,0,42,1,50000,0.9394,88.15,2.099,0.9978,NVIDIA L40S,cn42-l40.prajna.iitb.ac.in,2.11.0+cu128,353515,2026-10-17 02:58:38
+train|cifar10|resnet18|random|-|0.5|60|1|bal0|off0.0|kd0,baselines,cifar10,resnet18,random,-,0.5,0,0.0,0,60,1,25000,0.9114,68.82,1.147,0.9996,NVIDIA L40S,cn42-l40.prajna.iitb.ac.in,2.11.0+cu128,353515,2026-10-17 02:59:47
+train|cifar10|resnet18|short|-|1.0|18|1|bal0|off0.0|kd0,baselines,cifar10,resnet18,short,-,1.0,0,0.0,0,18,1,50000,0.9158,37.67,2.093,0.9688,NVIDIA L40S,cn42-l40.prajna.iitb.ac.in,2.11.0+cu128,353515,2026-10-17 03:00:25

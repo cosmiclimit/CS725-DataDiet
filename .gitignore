@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+# SLURM output and per-GPU logs
+*.out
+logs/
+# checks, not results
+results/smoke/
+results/check/
+scores/smoke/
+# teacher logits are large (only needed on Prajna for the distill experiment)
+scores/**/*_logits.npy

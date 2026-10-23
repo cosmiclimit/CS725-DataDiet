@@ -1,0 +1,4 @@
+# keep Linux line endings so the scripts run on Prajna even though they are edited on Windows
+*.sbatch text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
