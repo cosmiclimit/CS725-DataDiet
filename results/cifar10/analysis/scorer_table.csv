@@ -1,0 +1,2 @@
+scorer,epoch,runs,cost_sec,scorer_acc,spearman_vs_ref,hard_acc@50%,hard_acc@30%,random_acc@50%,random_acc@30%
+resnet18,20,3,165.76999999999998,84.08333333333333,1.0,92.62666666666667,80.14999999999999,90.97333333333331,86.42

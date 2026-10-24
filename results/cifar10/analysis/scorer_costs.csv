@@ -1,0 +1,2 @@
+score_set,scorer,epoch,runs,cost_sec,scorer_test_acc,S_over_F,break_even_f
+el2n_resnet18_e20,resnet18,20,3,165.76999999999998,84.08333333333333,1.1593388660947408,-0.1593388660947408
