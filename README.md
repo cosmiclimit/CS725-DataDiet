@@ -5,7 +5,7 @@ fraction of them, how close do we get to full-data accuracy, and does it save co
 scoring is counted?
 
 This is the mid-term state of the project: **CIFAR-10 only, three experiments** (`baselines`, `scores`,
-`main`). Slides: [slides/midterm_slides.pdf](slides/midterm_slides.pdf). All tables and figures:
+`main`). Slides: [slides/DataDiet Mid-Term Presentation.pptx](slides/DataDiet%20Mid-Term%20Presentation.pptx). All tables and figures:
 [results/cifar10/analysis/REPORT.md](results/cifar10/analysis/REPORT.md).
 
 ## Method in short
@@ -72,6 +72,7 @@ python analyze.py --images                   # tables, figures and REPORT.md in 
 | `analyze.py`, `estimate.py` | tables, figures, significance tests; GPU-time estimate |
 | `slurm/` | Prajna job scripts |
 | `results/cifar10/` | raw results (`train_*_shard*.csv`, `scoring_shard*.csv`) and `analysis/` |
+| `slides/` | mid-term presentation (`DataDiet Mid-Term Presentation.pptx`) |
 
 ## After the mid-term
 
