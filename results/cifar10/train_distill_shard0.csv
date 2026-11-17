@@ -1,0 +1,4 @@
+job_id,experiment,dataset,model,method,score_set,data_fraction,balanced,offset,kd,epochs,seed,n_kept,test_acc,train_seconds,sec_per_epoch,final_train_acc,hardware,host,torch,slurm_job,finished
+train|cifar10|resnet18|hard|el2n_resnet18_e20|0.5|60|0|bal0|off0.0|kd1,distill,cifar10,resnet18,hard,el2n_resnet18_e20,0.5,0,0.0,1,60,0,25000,0.9293,78.17,1.303,0.9896,NVIDIA L40S,cn42-l40.prajna.iitb.ac.in,2.11.0+cu128,353683,2026-10-17 03:48:36
+train|cifar10|resnet18|random|-|0.5|60|1|bal0|off0.0|kd1,distill,cifar10,resnet18,random,-,0.5,0,0.0,1,60,1,25000,0.9105,63.15,1.052,0.992,NVIDIA L40S,cn42-l40.prajna.iitb.ac.in,2.11.0+cu128,353683,2026-10-17 03:49:39
+train|cifar10|resnet18|random|-|0.3|60|1|bal0|off0.0|kd1,distill,cifar10,resnet18,random,-,0.3,0,0.0,1,60,1,15000,0.8944,43.14,0.719,0.9876,NVIDIA L40S,cn42-l40.prajna.iitb.ac.in,2.11.0+cu128,353683,2026-10-17 03:50:22
