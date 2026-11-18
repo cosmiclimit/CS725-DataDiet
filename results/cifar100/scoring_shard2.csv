@@ -1,0 +1,4 @@
+job_id,dataset,model,seed,snapshot_epoch,schedule_epochs,train_seconds,el2n_seconds,scorer_test_acc,hardware,host,torch,slurm_job,finished
+score|cifar100|resnet18|1002|20of60,cifar100,resnet18,1002,1,60,67.68,5.21,0.1485,NVIDIA L40S,cn43-l40.prajna.iitb.ac.in,2.11.0+cu128,354610,2026-10-17 10:13:27
+score|cifar100|resnet18|1002|20of60,cifar100,resnet18,1002,5,60,76.15,1.66,0.4191,NVIDIA L40S,cn43-l40.prajna.iitb.ac.in,2.11.0+cu128,354610,2026-10-17 10:13:38
+score|cifar100|resnet18|1002|20of60,cifar100,resnet18,1002,20,60,107.47,1.32,0.586,NVIDIA L40S,cn43-l40.prajna.iitb.ac.in,2.11.0+cu128,354610,2026-10-17 10:14:10
