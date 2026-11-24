@@ -1,0 +1,9 @@
+strategy,f,min_per_class,max_per_class,expected
+hard,90%,275,500,450
+easy,90%,352,499,450
+hard,70%,149,500,350
+easy,70%,164,482,350
+hard,50%,60,470,250
+easy,50%,30,440,250
+hard,30%,18,336,150
+easy,30%,0,351,150
