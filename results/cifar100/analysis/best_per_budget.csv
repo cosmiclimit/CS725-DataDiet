@@ -1,0 +1,5 @@
+budget,pruning,fewer_epochs
+about 90% of F,"tiny e5, keep 70%: 71.14% at 85%",54 epochs: 75.94% at 87%
+about 75% of F,"tiny e1, keep 70%: 70.63% at 79%",42 epochs: 75.51% at 70%
+about 50% of F,"R18 e1, keep 30%: 49.86% at 44%",30 epochs: 74.14% at 48%
+about 30% of F,none,18 epochs: 72.28% at 28%
